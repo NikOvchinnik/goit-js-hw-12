@@ -35,6 +35,6 @@ export function renderImg(imgsObj) {
     })
     .join('');
 
-  refs.listElem.innerHTML = markup;
+  refs.listElem.insertAdjacentHTML('beforeend', markup);
   simpleGallery.refresh();
 }

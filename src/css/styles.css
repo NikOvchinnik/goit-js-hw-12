@@ -100,6 +100,28 @@ ul {
   letter-spacing: 0.04em;
 }
 
+.btn-load{
+  display: block;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 125px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-load:hover {
+  background: #6c8cff;
+}
+
 .loader-container {
   display: flex;
   justify-content: center;
